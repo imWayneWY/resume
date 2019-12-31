@@ -3,7 +3,14 @@ import Resume from './components/Resume';
 
 function App() {
   return (
-    <Resume />
+    <div className="root">
+      <Resume />
+      <style jsx>{`
+        .root{
+          height: 100vh;
+        }
+      `}</style>
+    </div>
   );
 }
 
